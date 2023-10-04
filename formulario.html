@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Formulario</title>
+    </head>
+
+
+    <body>
+        <h1>Formulario</h1>
+        <form action="/some-url" mathod="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+            <label for="age">Age:</label>
+            <input type="number" id="age">
+            <label for="email">Email: </label>
+            <input type="email" id="email">
+            <label for="password">Password: </label>
+            <input type="password" id="password">
+            <label for="date">Date: </label>
+            <input type="date" id="date">
+            <label for="color">Color: </label>
+            <input type="color" id="color"><br>
+            <form action="/some-url" mathod="get">
+                <label for="City">City:</label>
+                <select name="iron-city">
+                    <option value="mad">Madrid</option>
+                    <option value="bcn">Barcelona</option>
+                    <option value="mia">Miami</option>
+                    <option value="mex">Mexico City</option>
+                    <option value="par">Paris</option>
+                    <option value="ber">Berlin</option>
+                    <option value="ams">Amsterdam</option>
+                    <option value="sao">Sao Paulo</option>
+                    <option value="lis">Lisbon</option>
+            
+                </select>
+            </form>
+            <button>Save</button>
+            <button>Delete</button>
+            <button>Cancel</button>
+        </form>
+    </body>
