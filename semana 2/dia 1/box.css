@@ -1,0 +1,17 @@
+div{
+    border: 2px solid black;
+    width: 300px;
+    float: left;
+}
+
+#div1, #div5, #div7{
+    height: 200px;
+}
+
+#div2, #div6, #div8{
+    height: 200px;
+}
+
+#div3, #div4, #div9{
+    height: 200px;
+}
